@@ -66,3 +66,7 @@ except Exception as e:
     print(f"Hiba történt a harcosok létrehozásakor: {e}")
 
 battle(warrior1, warrior2)
+
+
+
+#ciganyok vere folyjon patakokban he
