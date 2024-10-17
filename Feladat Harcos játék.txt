@@ -10,6 +10,14 @@ __init__(self, name, health, attack_power): Inicializálja a harcos nevét, éle
 attack(self, other_warrior): Ez a metódus csökkenti az ellenfél életerejét a támadási erővel.
 is_alive(self): Ez a metódus visszatér True értékkel, ha a harcos életereje nagyobb mint 0, és False-al, ha nem.
 
+Védekezés mechanika: A harcosok védekezhetnek is, ami csökkenti a támadások által okozott sebzést.
+
+Random sebzés: A támadások ne legyenek mindig fix erejűek, hanem véletlenszerűen változhassanak egy adott tartományon belül.
+
+Speciális képesség: Minden harcosnak legyen egy speciális képessége, amit véletlenszerűen aktiválhatnak a csatában (pl. kritikus sebzés vagy extra védelem).
+
+Körök számlálása: Legyen nyomon követve, hány kör után győz valaki.
+
 2. Játékmenet
 
 Hozz létre két harcost, akik felváltva támadják egymást, míg egyikük életereje el nem éri a nullát.
